@@ -1,0 +1,15 @@
+.galeria-titulo {
+    margin: 60px auto;
+    font-size: 38px;
+    text-align: center;
+}
+
+.galeria-caixa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 68px auto;
+}
+

@@ -1,0 +1,22 @@
+.banner-bg {
+    background: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    border: solid 2px #262526;
+}
+
+.banner-titulo {
+    color:#262526;
+    font-size: 70px;
+}
+
+.banner-texto {
+    font-size: 34px;  
+}

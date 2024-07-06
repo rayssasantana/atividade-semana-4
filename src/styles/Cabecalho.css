@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-caixa {
+    background-color: #B7A7F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    height: 64px;
+    border: solid 2px #262526;
+    border-radius: 8px;
+    margin: 20px 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #262526;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.navbar a:hover {
+    color: #E7E4F2;
+}
+
+.cabecalho-caixa img {
+    height: 40px;
+    
+}
+
+.navbar button {
+    font-weight: 700;
+    padding: 8px 12px;
+    border: solid 1px #262526;
+    border-radius: 5px;
+    background-color: #CCD96A;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.navbar button:hover {
+    color: #E7E4F2;
+}
