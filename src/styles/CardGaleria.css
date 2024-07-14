@@ -1,8 +1,4 @@
 .card-caixa {
-    width: 300px;
-    height: 400px;
-    border: solid 2px #262526;
-    border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,32 +9,31 @@
     box-shadow: 3px 3px 10px 0px #B4BF60;
 }
 
-.card-caixa img {
-    width: 297px;
-    border-radius: 12px;
-    margin-bottom: 10px;
+.card-body-titulo {
+    text-align: center;
 }
 
-.card-caixa p {
+.card-body-texto {
     width: 220px;
     text-align: justify;
     font-size: 14px;
 }
 
 .card-caixa button {
-    font-weight: 700;
+    font-weight: bold;
     padding: 8px;
     width: 220px;
     border: solid 1px #262526;
-    border-radius: 5px;
     background-color: #CCD96A;
     cursor: pointer;
     transition: all 0.2s;
-    margin-top: 12px;
 }
 
 .card-caixa button:hover {
     color: #E7E4F2;
-    box-shadow: 2px 2px 8px 0px #B4BF60;
+    background-color: #7b66c8;
+    border: solid 1px #262526;
+    box-shadow: 1px 1px 6px 0px #7b66c8;
 }
+
 

@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import "../styles/Banner.css";
 
 function Banner() {

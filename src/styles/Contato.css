@@ -1,0 +1,20 @@
+.invalid {
+    color: red;
+}
+
+.div-contato button {
+    font-weight: bold;
+    padding: 8px;
+    color: #262526;
+    border: solid 1px #262526;
+    background-color: #CCD96A;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.div-contato button:hover {
+    color: #E7E4F2;
+    background-color: #7b66c8;
+    border: solid 1px #262526;
+    box-shadow: 1px 1px 6px 0px #7b66c8;
+}

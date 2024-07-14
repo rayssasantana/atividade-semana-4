@@ -1,0 +1,28 @@
+.nf-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.figure-caixa {
+    text-align: center;
+}
+
+.nf-botao button {
+    color: #262526;
+    font-weight: bold;
+    padding: 12px;
+    margin: auto;
+    width: 260px;
+    border: solid 1px #262526;
+    background-color: #CCD96A;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nf-botao button:hover {
+    color: #E7E4F2;
+    background-color: #7b66c8;
+    border: solid 1px #262526;
+    box-shadow: 1px 1px 6px 0px #7b66c8;
+}

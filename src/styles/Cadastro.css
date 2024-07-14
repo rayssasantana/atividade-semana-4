@@ -1,0 +1,37 @@
+.invalid {
+    color: red;
+}
+
+.div-cadastro button {
+    font-weight: bold;
+    padding: 8px;
+    color: #262526;
+    border: solid 1px #262526;
+    background-color: #CCD96A;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.div-cadastro button:hover {
+    color: #E7E4F2;
+    background-color: #7b66c8;
+    border: solid 1px #262526;
+    box-shadow: 1px 1px 6px 0px #7b66c8;
+}
+
+.div-cadastro-google button {
+    font-weight: bold;
+    padding: 8px;
+    color: #262526;
+    border: solid 1px #262526;
+    background-color: #B7A7F2;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.div-cadastro-google button:hover {
+    color: #E7E4F2;
+    background-color: #7b66c8;
+    border: solid 1px #262526;
+    box-shadow: 1px 1px 6px 0px #7b66c8;
+}

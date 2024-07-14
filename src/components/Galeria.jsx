@@ -1,5 +1,4 @@
 import "../styles/Galeria.css";
-import Card from "./Card";
 import cod1 from "../assets/cod1.png";
 import cod2 from "../assets/cod2.png";
 import cod3 from "../assets/cod3.png";
@@ -8,12 +7,13 @@ import cod5 from "../assets/cod5.png";
 import cod6 from "../assets/cod6.png";
 import cod7 from "../assets/cod7.png";
 import cod8 from "../assets/cod8.png";
+import CardGaleria from "./CardGaleria";
 
 const projetos = [
     {
         cod: 1, 
         imagem: cod1, 
-        nome: "Portfolio Website", 
+        nome: "Portfólio Website", 
         descricao: "Site pessoal moderno para exibir projetos e habilidades profissionais.",
         botao: "Ver projeto",
     },
@@ -70,7 +70,7 @@ const projetos = [
 
 function Galeria() {
     const cardsProjeto = projetos.map((projeto) => {
-        return <Card key={projeto.cod} imagem={projeto.imagem} nome={projeto.nome} descricao={projeto.descricao} botao={projeto.botao} />
+        return <CardGaleria key={projeto.cod} imagem={projeto.imagem} nome={projeto.nome} descricao={projeto.descricao} botao={projeto.botao} />
     });
 
     return (
